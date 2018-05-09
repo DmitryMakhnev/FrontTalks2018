@@ -5,7 +5,7 @@ import { SomeComponent } from './withDOM';
 
 describe('withDOM', () => {
 
-    it('some component init', () => {
+    it('some component render', () => {
         const instance =  new SomeComponent();
         const testId = 'Holy';
         const testText = 'JS';
@@ -15,6 +15,7 @@ describe('withDOM', () => {
             text: testText
         });
 
+        assert.ok(div instanceof HTMLElement);
         assert.strictEqual(div.id, testId);
         assert.strictEqual(
             div.childNodes[0].nodeValue,
