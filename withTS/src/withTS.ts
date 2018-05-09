@@ -6,7 +6,7 @@ interface PropsOfMyDream {
 
 export class SomeComponent {
 
-    render(props: PropsOfMyDream) : HTMLElement {
+    render(props: PropsOfMyDream): HTMLElement {
         const div: HTMLElement = document.createElement('div');
 
         div.id = props.id;

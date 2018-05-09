@@ -9,7 +9,7 @@ function printBoyData(boy: Boy) : string {
 describe('withTSAndLove', () => {
     
     it('S as soundness', () => {
-        const girlInstance : Girl = new Girl('Sally', 21);
+        const girlInstance: Girl = new Girl('Sally', 21);
 
         assert.strictEqual(
             printBoyData(girlInstance),
