@@ -1,0 +1,23 @@
+{
+  "name": "holyjs-wallaby-and-quokka-with-ts",
+  "version": "1.0.0",
+  "description": "wallaby.js with TS and mocha in browser example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Dmitry Makhnev",
+    "email": "dmitry.ivshin@gmail.com",
+    "url": "https://github.com/DmitryMakhnev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^5.2.0",
+    "assert": "^1.4.1",
+    "mocha": "^5.1.1",
+    "typescript": "^2.8.3",
+    "wallaby-webpack": "^3.9.7",
+    "webpack": "^4.8.1"
+  }
+}

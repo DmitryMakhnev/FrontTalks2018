@@ -1,14 +1,14 @@
-import assert from 'assert';
+import * as assert from 'assert';
 
-import { SomeComponent } from './withDOM';
+import { SomeComponent } from './withTS';
 
 
-describe('withDOM', () => {
+describe('withTS', () => {
 
     it('some component render', () => {
-        const instance =  new SomeComponent();
-        const id = 'Holy';
-        const text = 'JS';
+        const instance = new SomeComponent();
+        const id = 'holy';
+        const text = 'js';
 
         const div = instance.render({
             id,
@@ -22,4 +22,8 @@ describe('withDOM', () => {
             text
         );
     });
+
 });
+
+
+
