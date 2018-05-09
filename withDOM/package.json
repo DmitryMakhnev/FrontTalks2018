@@ -1,0 +1,24 @@
+{
+  "name": "holyjs-wallaby-and-quokka-with-dom",
+  "version": "1.0.0",
+  "description": "wallaby.js with DOM, mocha and es6 example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Dmitry Makhnev",
+    "email": "dmitry.ivshin@gmail.com",
+    "url": "https://github.com/DmitryMakhnev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "mocha": "^5.1.1",
+    "wallaby-webpack": "^3.9.7",
+    "webpack": "^4.8.1"
+  }
+}
