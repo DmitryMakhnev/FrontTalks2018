@@ -1,7 +1,7 @@
 {
-  "name": "holyjs-wallaby-and-quokka-with-dom",
+  "name": "holyjs-wallaby-and-quokka-with-ts-and-node",
   "version": "1.0.0",
-  "description": "wallaby.js with DOM, mocha and es6 example",
+  "description": "wallaby.js with TS and mocha with node",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,11 +13,9 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/mocha": "^5.2.0",
     "assert": "^1.4.1",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.6.1",
     "mocha": "^5.1.1",
-    "wallaby-webpack": "^3.9.7",
-    "webpack": "^4.8.1"
+    "typescript": "^2.8.3"
   }
 }
