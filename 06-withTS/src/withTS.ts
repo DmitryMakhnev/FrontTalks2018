@@ -1,3 +1,5 @@
+
+
 interface PropsOfMyDream {
     readonly id: string,
     readonly text: string
@@ -18,3 +20,4 @@ export class SomeComponent {
     }
 
 }
+

@@ -1,3 +1,5 @@
+
+
 import assert from 'assert';
 
 import { SomeComponent } from './withDOM';
@@ -23,3 +25,4 @@ describe('withDOM', () => {
         );
     });
 });
+

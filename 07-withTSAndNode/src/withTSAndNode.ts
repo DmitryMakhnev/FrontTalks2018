@@ -1,3 +1,5 @@
+
+
 export class Girl {
     name: string;
     age: number;
@@ -26,3 +28,4 @@ export class Boy {
         return `Name: ${boy.name}; Age: ${boy.age};`;
     }
 }
+

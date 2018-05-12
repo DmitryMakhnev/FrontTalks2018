@@ -1,5 +1,6 @@
 // based on https://github.com/wallabyjs/wallaby-webpack-es6-react
 
+
 const wallabyWebpack = require('wallaby-webpack');
 
 

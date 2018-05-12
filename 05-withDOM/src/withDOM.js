@@ -1,4 +1,5 @@
 
+
 export class SomeComponent {
 
     render(props) {
@@ -16,3 +17,4 @@ export class SomeComponent {
         return div;
     }
 }
+

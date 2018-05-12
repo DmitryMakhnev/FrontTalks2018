@@ -1,4 +1,7 @@
+
+
 import * as assert from 'assert';
+
 
 import { SomeComponent } from './withTS';
 
@@ -24,6 +27,4 @@ describe('withTS', () => {
     });
 
 });
-
-
 

@@ -1,4 +1,7 @@
+
+
 const wallabyWebpack = require('wallaby-webpack');
+
 
 module.exports = function (wallaby) {
     return {
@@ -29,3 +32,4 @@ module.exports = function (wallaby) {
         }
     };
 };
+
