@@ -1,7 +1,7 @@
 {
-  "name": "holyjs-wallaby-and-quokka-when",
+  "name": "holyjs-wallaby-and-quokka-with-node",
   "version": "1.0.0",
-  "description": "wallaby.js when",
+  "description": "wallaby.js with node",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

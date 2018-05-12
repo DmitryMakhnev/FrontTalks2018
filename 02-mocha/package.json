@@ -1,7 +1,7 @@
 {
-  "name": "holyjs-wallaby-and-quokka-when-with-mocha",
+  "name": "holyjs-wallaby-and-quokka-mocha",
   "version": "1.0.0",
-  "description": "wallaby.js when with mocha",
+  "description": "mocha",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require babel-core/register './src/**/*.test.js'",
