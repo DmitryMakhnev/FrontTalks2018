@@ -6,7 +6,7 @@ function generateResultSamples(resultDirAddress, baseFileName, codeFileContent, 
     const samplesList = [];
 
     for (let i = 0; i !== count; i += 1) {
-        const sample = generateOneResultSample(resultDirAddress, baseFileName, codeFileContent, testFileContent, genericIdTemplateRegExp,  i);
+        const sample = generateSample(resultDirAddress, baseFileName, codeFileContent, testFileContent, genericIdTemplateRegExp,  i);
         samplesList.push(sample);
     }
 
@@ -14,7 +14,7 @@ function generateResultSamples(resultDirAddress, baseFileName, codeFileContent, 
 }
 
 
-function generateOneResultSample(resultDirAddress, baseFileName, codeFileContent, testFileContent, genericIdTemplateRegExp, id) {
+function generateSample(resultDirAddress, baseFileName, codeFileContent, testFileContent, genericIdTemplateRegExp, id) {
     return {
         codeFilePath: path.join(resultDirAddress, `${baseFileName}${id}.js`),
         codeFileContent: codeFileContent.replace(genericIdTemplateRegExp, id),
@@ -39,5 +39,6 @@ function writeSamples(samplesList) {
 
 module.exports = {
     generateResultSamples,
-    writeSamples
+    writeSamples,
+    resultDirAddress: path.join(__dirname, '/../', 'generationResult')
 };

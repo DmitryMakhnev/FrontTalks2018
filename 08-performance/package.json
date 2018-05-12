@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "generate:independent": "cross-env FILES_COUNT=1000 node ./generators/generateIndependent.js",
-    "generate:dependent": "cross-env FILES_COUNT=1000 node ./generators/generateDependent.js"
+    "generate:dependent": "cross-env FILES_COUNT=1000 node ./generators/generateDependent.js",
+    "generate:bigFiles": "cross-env FILES_COUNT=100 METHODS_COUNT=100 node ./generators/generateBigFiles.js"
   },
   "author": {
     "name": "Dmitry Makhnev",

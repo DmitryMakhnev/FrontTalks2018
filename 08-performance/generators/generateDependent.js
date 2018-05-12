@@ -5,7 +5,8 @@ const requiredSamplesCount = +process.env.FILES_COUNT;
 
 const {
     generateResultSamples,
-    writeSamples
+    writeSamples,
+    resultDirAddress
 } = require('./common');
 
 const GENERIC_ID_TEMPLATE = '__GENERIC_ID__';
@@ -16,7 +17,6 @@ const moduleName = `${BASE_FILE_NAME}${GENERIC_ID_TEMPLATE}`;
 const genericIdTemplateRegExp = new RegExp(GENERIC_ID_TEMPLATE, 'g');
 
 
-const resultDirAddress = path.join(__dirname, '/../', 'generationResult');
 const samplesDir = path.join(__dirname, '/../', 'samples/dependent');
 
 const fileAddress = path.join(samplesDir, `${moduleName}.js`);
