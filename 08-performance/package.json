@@ -1,0 +1,25 @@
+{
+  "name": "holyjs-wallaby-and-quokka-performance",
+  "version": "1.0.0",
+  "description": "wallaby.js performance",
+  "main": "index.js",
+  "scripts": {
+    "generate:independent": "cross-env FILES_COUNT=1000 node ./generators/generateIndependent.js",
+    "generate:dependent": "cross-env FILES_COUNT=1000 node ./generators/generateDependent.js"
+  },
+  "author": {
+    "name": "Dmitry Makhnev",
+    "email": "dmitry.ivshin@gmail.com",
+    "url": "https://github.com/DmitryMakhnev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.1.5",
+    "mocha": "^5.1.1"
+  },
+  "dependencies": {
+    "fs-extra": "^6.0.1"
+  }
+}
