@@ -51,7 +51,7 @@ calculate(0, 1); /*?*/
 
 const data = [1, 3, 2, 4];
 
-data.map(item => item * 2) /*?.*/
+data.map(item => item * 2) /*?*/
     .sort() /*?*/
     .filter(item => item > 3) /*? $[1]*/
     .reduce(
@@ -62,3 +62,7 @@ data.map(item => item * 2) /*?.*/
     ); /*?*/
 
 
+
+
+// TypeScript and Babel out-of-box
+// Browser environment via jsdom is also supported, there are also various examples available.

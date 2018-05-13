@@ -13,3 +13,6 @@ export function calculate (a, b) {
     return a + b;
 }
 
+
+// TODO: [dmitry.makhnev] go to wallaby app
+

@@ -19,8 +19,6 @@ function nodesTreeWalker(rootNode, nodeProcessor) {
     const queue = [rootNode];
 
     while(queue.length) {
-        // const queueCache = queue;
-        // const currentNode = queueCache
         const currentNode = queue.shift();
         if (currentNode.childNodes) {
             queue.push(...currentNode.childNodes);

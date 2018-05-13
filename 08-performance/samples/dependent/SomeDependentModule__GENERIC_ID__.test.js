@@ -6,7 +6,7 @@ import assert from 'assert';
 import { SomeDependentModule__GENERIC_ID__ } from './SomeDependentModule__GENERIC_ID__';
 
 
-describe('SomeModule_$NAME$_', () => {
+describe('SomeDependentModule__GENERIC_ID__', () => {
 
     it('.sum()', () => {
         const instance = new SomeDependentModule__GENERIC_ID__(3, 8);
