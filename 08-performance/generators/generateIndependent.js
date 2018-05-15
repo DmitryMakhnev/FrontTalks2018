@@ -16,7 +16,7 @@ const moduleName = `${BASE_FILE_NAME}${GENERIC_ID_TEMPLATE}`;
 const genericIdTemplateRegExp = new RegExp(GENERIC_ID_TEMPLATE, 'g');
 
 
-const samplesDir = path.join(__dirname, '/../', 'samples/independent');
+const samplesDir = path.join(__dirname, '/../', 'samples/01-independent');
 
 const fileAddress = path.join(samplesDir, `${moduleName}.js`);
 const testFileAddress = path.join(samplesDir, `${moduleName}.test.js`);

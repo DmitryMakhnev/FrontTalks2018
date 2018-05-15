@@ -18,7 +18,7 @@ const genericIdTemplateRegExp = new RegExp(GENERIC_ID_TEMPLATE, 'g');
 const methodGenericIdTemplateRexExp = /__GENERIC_METHOD_ID__/g;
 
 
-const samplesDir = path.join(__dirname, '/../', 'samples/bigFiles');
+const samplesDir = path.join(__dirname, '/../', 'samples/03-bigFiles');
 
 const fileAddress = path.join(samplesDir, `${moduleName}.js`);
 const testFileAddress = path.join(samplesDir, `${moduleName}.test.js`);
