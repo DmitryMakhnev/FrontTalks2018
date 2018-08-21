@@ -1,31 +1,37 @@
 
-
-export class Girl {
-    name: string;
-    age: number;
-
-    constructor(name: string, age: number) {
-        this.name = name;
-        this.age = age;
-    }
-
-    static serialize(girl: Girl) : string {
-        return `Name: ${girl.name}; Age: ${girl.age};`;
-    }
+interface IElementBounds {
+    x: number,
+    y: number,
+    width: number,
+    height: number,
 }
 
 
-export class Boy {
-    name: string;
-    age: number;
+export function calcMaxCenterSquareBounds(
+    containerWidth: number,
+    containerHeight: number
+): IElementBounds {
+    let width;
+    let height;
+    let x;
+    let y;
 
-    constructor(name: string, age: number) {
-        this.name = name;
-        this.age = age;
+    if (containerHeight > containerWidth) {
+        width = height = containerWidth;
+        x = 0;
+        y = (containerHeight - containerWidth) / 2;
+
+    } else {
+        width = height = containerHeight;
+        x = (containerWidth - containerHeight) / 2;
+        y = 0;
     }
 
-    static serialize(boy: Boy) : string {
-        return `Name: ${boy.name}; Age: ${boy.age};`;
-    }
+    return {
+        x,
+        y,
+        width,
+        height
+    };
 }
 
